@@ -31,7 +31,7 @@ Los argumentos de CLI ayudan a que se pueda parametrizar tu programa. Ve y lee l
 Es momento de mejorar el programa, Vamos a pasarle un argumento numérico indicando cuál proverbio mostrar. (ejemplo `proverbio 5`). Debe cumplir los siguientes requerimientos:
 
 * Tomar un argumento numérico y mostrar un solo proverbio, el cuál debe coincidir con la posición del proverbio en la lista.
-* Arguemntos no numéricos deben ser rechazados.
+* Argumentos no numéricos deben ser rechazados.
 * Argumentos no positivos deben ser convertidos a su valor absoluto.
 * Argumentos que excedan los límites de la lista deben ser rechazados. (ejemplo: pedir el proverbio 45º cuando hay solamente 19 debería mostrar queja al usuario).
 
