@@ -38,7 +38,7 @@ Es momento de mejorar el programa, Vamos a pasarle un argumento numérico indica
 ProTip: Hay una manera difícil de hacer esto (manipulando un string blob para extraer el texto en la posición correcta) y hay una manera fácil el cuál usa slices (https://gobyexample.com/slices). 
 
 ## Command Line Flags
-Flags son comúnmente usadas para aplicaciones basadas en Interfaz de Línea de Comandos cuando hay la necesidad de especificar opciones (ejemplo: `ls -l` donde el flag `-l` le dice al programa alterar la salida que se hubiese obtenido de otra manera. Ver http://gobyexample.com/command-line-flags para aprender como extraer flags en tu programa.
+Flags son comúnmente usadas para aplicaciones basadas en Interfaz de Línea de Comandos cuando hay la necesidad de especificar opciones (ejemplo: `ls -l` donde el flag `-l` le dice al programa alterar la salida que se hubiese obtenido de otra manera). Ver http://gobyexample.com/command-line-flags para aprender como extraer flags en tu programa.
 
 ### Ejercicio
 Continuemos construyendo nuestro programa de `proverbios`, vamos a modificarlo para que tome el flag `-f` y un valor indicando un string para buscar en nuestra lista de proverbios. Si lo encuentra, el/los proverbio(s) son listados.
