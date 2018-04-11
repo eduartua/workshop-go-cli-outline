@@ -75,7 +75,7 @@ $ PROVERBS_FILE=/some/path/to/proverbs.txt proverbs -f cgo
 ```
 
 ## Escribiendo Archivos
-Así como es común leer archivos directamente del disco, es una práctica común escribir archivos al disco. En el siguiente paso, vamos a mejorar nuestro programa para que escriba los programas que son listados, mostrados o encontrados a un archivo. Puedes usar https://gobyexample.com/writing-files como referencia sobre cómo escribir archivos al disco.
+Así como es común leer archivos directamente del disco, es una práctica común escribir archivos al disco. En el siguiente paso, vamos a mejorar nuestro programa para que escriba los proverbios que son listados, mostrados o encontrados a un archivo. Puedes usar https://gobyexample.com/writing-files como referencia sobre cómo escribir archivos al disco.
 
 ### Ejercicio
 Merjora tu programa de `proverbios` de manera que pueda tomas un flag `-o` cuyo argumento es el path al cuál debería ser escrito el resultado de la operación.
