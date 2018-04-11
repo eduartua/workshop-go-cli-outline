@@ -68,7 +68,7 @@ Mejora tu programa permitiéndolo checar el entorno para saber si existe la vari
 
 Entonces tu programa debería ser capaz de ejecutar las mismas funciones como lo hizo previamente (ejemplo: escuchar, buscar y mostrar un proverbio específico).
 
-Puedes también o `exportar` tu variable de entorno al shell cuál construirás y ejecetarás tu programa o puedes especificar la variable en el momento de invocación como:
+Puedes también `exportar` tu variable de entorno al shell en el cuál construirás y ejecutarás tu programa, o puedes especificar la variable en el momento de invocación como:
 
 ```bash
 $ PROVERBS_FILE=/some/path/to/proverbs.txt proverbs -f cgo
